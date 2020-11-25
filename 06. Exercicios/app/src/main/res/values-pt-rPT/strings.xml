@@ -24,7 +24,6 @@
     <!-- Buttons -->
     <string name="open_camera">Abrir a câmara</string>
     <string name="open_details">Abrir os detalhes</string>
-    <string name="open_list">Abrir lista</string>
     <string name="show_dialog">Mostrar um dialog</string>
     <string name="show_snackbar">Mostra uma snackbar</string>
     <string name="start_timer">Inicio</string>

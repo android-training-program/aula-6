@@ -25,7 +25,6 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.google.android.material.snackbar.Snackbar
 import pt.atp.bobi.R
 import pt.atp.bobi.presentation.MainViewModel
-import pt.atp.bobi.presentation.ui.ListActivity
 import java.io.File
 
 private const val TAG = "HomeFragment"
@@ -49,10 +48,6 @@ class HomeFragment : Fragment() {
 
         view.findViewById<Button>(R.id.open_camera).setOnClickListener {
             openNativeCamera()
-        }
-
-        view.findViewById<Button>(R.id.open_list).setOnClickListener {
-            openListActivity()
         }
 
         view.findViewById<Button>(R.id.show_dialog).setOnClickListener {
@@ -119,14 +114,6 @@ class HomeFragment : Fragment() {
     private fun openNativeCamera() {
         val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
         startActivityForResult(intent, REQUEST_IMAGE_CAPTURE)
-    }
-
-    /**
-     * Calling this method will open a new activity.
-     */
-    private fun openListActivity() {
-        val intent = Intent(requireContext(), ListActivity::class.java)
-        startActivity(intent)
     }
 
     /**

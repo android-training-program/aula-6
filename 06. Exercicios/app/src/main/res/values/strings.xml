@@ -23,7 +23,6 @@
     <!-- Buttons -->
     <string name="open_camera">Open camera</string>
     <string name="open_details">Open details</string>
-    <string name="open_list">Open list</string>
     <string name="show_dialog">Show dialog</string>
     <string name="show_snackbar">Show snackbar</string>
     <string name="start_timer">Start</string>
