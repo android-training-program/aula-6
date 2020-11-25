@@ -24,7 +24,6 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.google.android.material.snackbar.Snackbar
 import pt.atp.bobi.R
-import pt.atp.bobi.presentation.MainViewModel
 import java.io.File
 
 private const val TAG = "HomeFragment"
@@ -33,7 +32,7 @@ private const val REQUEST_READ_STORAGE = 500
 
 class HomeFragment : Fragment() {
 
-    private val viewModel by viewModels<MainViewModel>()
+    private val viewModel by viewModels<HomeViewModel>()
 
     override fun onCreateView(
         inflater: LayoutInflater,

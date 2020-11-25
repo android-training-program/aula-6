@@ -1,10 +1,10 @@
-package pt.atp.bobi.presentation
+package pt.atp.bobi.presentation.ui.fragments
 
 import android.os.CountDownTimer
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class MainViewModel : ViewModel(){
+class HomeViewModel : ViewModel(){
 
     private val _timerLiveDate = MutableLiveData<Long>()
     val timerLiveDate = _timerLiveDate

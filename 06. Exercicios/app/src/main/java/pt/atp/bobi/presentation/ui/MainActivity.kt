@@ -1,12 +1,10 @@
 package pt.atp.bobi.presentation.ui
 
 import android.os.Bundle
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import pt.atp.bobi.R
-import pt.atp.bobi.presentation.MainViewModel
 import pt.atp.bobi.presentation.ui.fragments.AboutFragment
 import pt.atp.bobi.presentation.ui.fragments.BreedsFragment
 import pt.atp.bobi.presentation.ui.fragments.FavouritesFragment
