@@ -12,11 +12,7 @@ import pt.atp.bobi.presentation.ui.fragments.BreedsFragment
 import pt.atp.bobi.presentation.ui.fragments.FavouritesFragment
 import pt.atp.bobi.presentation.ui.fragments.HomeFragment
 
-private const val TAG = "MainActivity"
-
 class MainActivity : AppCompatActivity() {
-
-    private val viewModel by viewModels<MainViewModel>()
 
     private val homeFragment by lazy { HomeFragment() }
     private val breedsFragment by lazy { BreedsFragment() }
