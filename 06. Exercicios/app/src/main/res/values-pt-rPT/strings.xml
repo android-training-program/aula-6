@@ -47,4 +47,10 @@
     <!-- Content Description -->
     <string name="description_logo">Logo da aplicação</string>
     <string name="description_image">Imagem de um cão</string>
+
+    <!-- Main -->
+    <string name="main_menu_home">Início</string>
+    <string name="main_menu_breeds">Raças</string>
+    <string name="main_menu_favourites">Favoritos</string>
+    <string name="main_menu_about">Sobre</string>
 </resources>

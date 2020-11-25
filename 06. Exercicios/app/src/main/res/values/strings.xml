@@ -46,4 +46,12 @@
     <!-- Content Description -->
     <string name="description_logo">Application logo</string>
     <string name="description_image">Image of a dog</string>
+
+    <!-- Main -->
+    <string name="main_menu_home">Home</string>
+    <string name="main_menu_breeds">Breeds</string>
+    <string name="main_menu_favourites">Favourites</string>
+    <string name="main_menu_about">About</string>
+
+
 </resources>
