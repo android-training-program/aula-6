@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "959698378035",
+    "firebase_url": "https://bobi-renato.firebaseio.com",
+    "project_id": "bobi-renato",
+    "storage_bucket": "bobi-renato.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959698378035:android:8d0228aeca8b0051ffb246",
+        "android_client_info": {
+          "package_name": "pt.atp.bobi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959698378035-msl864i4f3fo3b2tnfn1eq4882hlj1ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyZmo5UKvQ_GC6HFJ7SNxPMwNfqOfh0Jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959698378035-msl864i4f3fo3b2tnfn1eq4882hlj1ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
